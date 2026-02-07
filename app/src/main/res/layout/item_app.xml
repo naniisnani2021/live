@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/section_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#EEEEEE"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="6dp">
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/app_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="App Name"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/app_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp" />
+
+        <TextView
+            android:id="@+id/section_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#202124"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</LinearLayout>
