@@ -2,9 +2,7 @@
 
 Minimalistic Android Launcher
 
-<img src="app/src/main/assets/3.jpg" alt="Screens Collage" height="400"/>
-<img src="app/src/main/assets/1.jpg" alt="Screens Collage" height="400"/>
-<img src="app/src/main/assets/2.jpg" alt="Screens Collage" height="400"/>
+<img src="app/src/main/assets/3.jpg" alt="Screens Collage" height="400"/> <img src="app/src/main/assets/1.jpg" alt="Screens Collage" height="400"/> <img src="app/src/main/assets/2.jpg" alt="Screens Collage" height="400"/>
 
 
 
